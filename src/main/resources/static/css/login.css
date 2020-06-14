@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #303952;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+.container h1{
+    margin: 50px auto;
+    color: white;
+    font-size: 40px;
+}
+.container .field{
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    background: none;
+    border: 2px solid #6ab04c;
+    border-radius:5px;
+    text-align: center;
+    outline: none;
+    transition: 0.5s;
+    color:white;
+    font-size: 20px;
+}
+input:focus::-webkit-input-placeholder{ 
+    color:transparent;
+}
+
+.container .field:hover{
+    border-color: #eb4d4b;
+}
+.container .field:focus{
+    border-color: #eb4d4b;
+}
+.container input[type="submit"]{
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 30px auto;
+    padding: 5px;
+    background: none;
+    border: 2px solid #eb4d4b;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    color: white;
+    transition: 0.5s;
+}
+.container input[type="submit"]:hover{
+    background-color: #eb4d4b;
+}
+
+.container div{
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 30px auto;
+    padding-top: 5px;
+    text-align: center;
+    background: none;
+    border: 2px solid #f0932b;
+    border-radius: 8px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.container div:hover{
+    background-color: #f0932b;
+}
+
+
+
+.container2{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container2 .field{
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    background: none;
+    border: 2px solid #6ab04c;
+    border-radius:5px;
+    text-align: center;
+    outline: none;
+    transition: 0.5s;
+    color:white;
+    font-size: 20px;
+}
+
+.container2 h1{
+    margin: 50px auto;
+    color: white;
+    font-size: 40px;
+}
+
+.container2 .field:hover{
+    border-color: #f0932b;
+}
+.container2 .field:focus{
+    border-color: #f0932b;
+}
+
+.container2 input[type="submit"]{
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 30px auto;
+    padding: 5px;
+    background: none;
+    border: 2px solid #f0932b;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    color: white;
+    transition: 0.5s;
+}
+.container2 input[type="submit"]:hover{
+    background-color: #f0932b;
+}
+
+
+.container2 div{
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 30px auto;
+    padding-top: 5px;
+    text-align: center;
+    background: none;
+    border: 2px solid #eb4d4b;
+    border-radius: 8px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.container2 div:hover{
+    background-color: #eb4d4b;
+}

@@ -1,0 +1,261 @@
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 51, 83);
+    margin: 0px;
+    cursor: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo-young-customer-service-man-with-brace-doing-the-ok-sign-48960075.html&psig=AOvVaw1wOjb5Y0ErgCE_YJ3XWet8&ust=1590080136930000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDStKb0wukCFQAAAAAdAAAAABAJ");
+}
+
+
+.main_block{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 33%;
+    margin-right: 33%;
+    width: 33%;
+}
+
+.title_block{
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+    
+}
+
+.title_block_text{
+    position: relative;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    width: 100%;
+    
+}
+
+.loginpassword_block{
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    
+}
+
+.loginpassword_block_login{
+    position: relative;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.loginpassword_block_login_textarea{
+    position: relative;
+    background: rgba(0, 0, 0, 0.0);
+    border: rgba(0, 0, 0, 0.0);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    resize: none;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+
+.loginpassword_block_password{
+    position: relative;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 70%;
+    height: 70px;
+    
+}
+
+.loginpassword_block_button{
+    position: relative;
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.0);
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 40%;
+    height: 40px;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    resize: none;
+    cursor: pointer;
+}
+
+.loginpassword_block_createAcc{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    resize: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.signup_block{
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+}
+
+.signup_block_email{
+    position: relative;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+}
+
+.signup_block_email_textarea{
+    position: relative;
+    background: rgba(0, 0, 0, 0.0);
+    border: rgba(0, 0, 0, 0.0);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    resize: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signup_block_name{
+    position: relative;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 15%;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    
+}
+
+.signup_block_name_textarea{
+    position: relative;
+    background: rgba(0, 0, 0, 0.0);
+    border: rgba(0, 0, 0, 0.0);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    resize: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signup_block_password{
+    position: relative;
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 15%;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+}
+
+.signup_block_password_textarea{
+    position: relative;
+    background: rgba(0, 0, 0, 0.0);
+    border: rgba(0, 0, 0, 0.0);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    resize: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signup_block_button{
+    position: relative;
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.0);
+    margin-top: 50px;
+    margin-left: 0%;
+    width: 60%;
+    height: 40px;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    resize: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signup_block_backToTheFuture{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    text-align: center;
+    font-family: Sahitya;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    resize: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {outline:none;}
+button {outline:none;}

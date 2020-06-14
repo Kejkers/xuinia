@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: #303952;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: relative;
+    width: 100vw;
+    min-width: 1200px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 10px 20px;
+}
+header nav{
+    margin: 10px 20px;
+}
+header nav a{
+    margin: auto 10px;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+ 
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bolder;
+}
+header .mark{
+    border-bottom: 2px solid #6ab04c;
+}
+
+header nav a:hover{
+    background-color: #6ab04c;
+    border-radius: 8px;
+}
+
+.page .create{
+    margin: 0;
+    font-size: larger;
+    padding: 10px 15px;
+    margin: 10px;
+    margin-top: 20px;
+    border: 2px solid #f0932b;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.page .create:hover{
+    background-color: #f0932b;
+    transform: scale(1.1);
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;  
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+.container .friend{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    border: 2px solid #6ab04c;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container .friend:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container .friend .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.container .friend .info{
+    height: 60px;
+    margin-left: 10px;
+}
+
+.container .friend .info h1{
+    font-size: 25px;
+    margin: 0px;
+    color: #f0932b;
+}

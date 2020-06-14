@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: #303952;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: relative;
+    width: 100vw;
+    min-width: 1200px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 10px 20px;
+}
+
+.search{
+    margin: 10px 20px;
+    margin-bottom: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.search input{
+    margin: 20px;
+    margin-right: 10px;
+    width: 600px;
+    height: 2.5em;
+    padding: 15px;
+    outline: none;
+    background: none;
+    border: 2px solid #6ab04c;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s;
+    -webkit-appearance: none;
+}
+
+
+
+.search input:focus{
+    border-color: #f0932b;
+}
+.search div{
+    margin: 5px;
+    width: 54px;
+    height: 54px;
+    margin: 10px;
+    background-image: url("search.png");
+    background-repeat: round;
+    transition: 0.4s;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.search div:hover{
+    transform: scale(1);
+}
+
+header nav{
+    margin: 10px 20px;
+}
+header nav a{
+    margin: auto 10px;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+ 
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bolder;
+}
+header .mark{
+    border-bottom: 2px solid #6ab04c;
+}
+
+header nav a:hover{
+    background-color: #6ab04c;
+    border-radius: 8px;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;  
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+.container .friend{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid #6ab04c;
+    transition: 0.5s;
+}
+
+
+.container .friend:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container .friend .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.container .friend .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: black;
+}
+.container .friend h1{
+    font-size: 25px;
+    margin: 0px;
+    margin-left: 10px;
+    color: #f0932b;
+    font-size: 32px;
+}
+
+.container .friend .trashbin{
+    margin-right: 10px;
+    width: 34px;
+    height: 43px;
+    background-image: url("trash.png");
+    background-repeat: round;
+    transition: 0.4s;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.container .friend .trashbin:hover{
+    transform: scale(1);
+}

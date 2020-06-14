@@ -8,13 +8,5 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-    	//TODO: Remove unhandled locked requests
-		http.authorizeRequests()
-		.antMatchers("/", "/login","/user/registration/**", "../static/css/**").permitAll()
-		.anyRequest().authenticated()
-		.and().exceptionHandling().accessDeniedPage("/access-denied")			
-		.and().formLogin().loginPage("/login").permitAll();
-    }
+    
 }
